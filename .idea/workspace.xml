@@ -1,0 +1,1283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="designer-remote:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="85a11517-58e9-44a5-9c45-7e7d3d9c6d16" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/designer-web/target/" />
+    <ignored path="$PROJECT_DIR$/designer-core/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/designer-remote/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DeviceServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/DeviceServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeviceServerImp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/impl/DeviceServerImp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeviceDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/dao/DeviceDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/dao/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="90" column="37" lean-forward="true" selection-start-line="90" selection-start-column="37" selection-end-line="90" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/dao/impl/UserDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeviceController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/controller/DeviceController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="33" column="51" lean-forward="true" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/UserServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServerImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/impl/UserServerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-mvc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designer-remote/src/main/resources/spring-mvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="40" column="64" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>info</find>
+      <find>base</find>
+      <find>basePath2</find>
+      <find>projectPath</find>
+      <find>camera</find>
+      <find>imgg</find>
+      <find>changeAuto</find>
+      <find>重启</find>
+      <find>changeDevice</find>
+      <find>food</find>
+      <find>food_time</find>
+      <find>device_status.watertemp_status</find>
+      <find>&lt;text</find>
+      <find>&lt;/text&gt;</find>
+      <find>blur_green</find>
+      <find>orange</find>
+      <find>penwu</find>
+      <find>contrller</find>
+      <find>lamp</find>
+      <find>light</find>
+      <find>date</find>
+      <find>data-status</find>
+      <find>food_status</find>
+      <find>load</find>
+      <find>fa-</find>
+      <find>food_time_list</find>
+      <find>deviceUserMap</find>
+      <find>removeSession</find>
+      <find>connect</find>
+      <find>log4j</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>div</replace>
+      <replace>var</replace>
+      <replace>${path}</replace>
+      <replace>cameraImg</replace>
+      <replace>&lt;span</replace>
+      <replace>&lt;/span&gt;</replace>
+      <replace>contrller</replace>
+      <replace>humidity_contrller</replace>
+      <replace>controller</replace>
+      <replace>lamp_controller</replace>
+      <replace>lamp</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/unit/MyInterceptor.java" />
+        <option value="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/module/User.java" />
+        <option value="$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/modal.jsp" />
+        <option value="$PROJECT_DIR$/designer-remote/src/main/webapp/js/common.js" />
+        <option value="$PROJECT_DIR$/designer-core/src/main/resources/mybatis/user/userMapper.xml" />
+        <option value="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/UserServer.java" />
+        <option value="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/impl/UserServerImpl.java" />
+        <option value="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/unit/MailUtil.java" />
+        <option value="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/module/Device.java" />
+        <option value="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/module/Version.java" />
+        <option value="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/dao/VersionDao.java" />
+        <option value="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/VersionServer.java" />
+        <option value="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/impl/VersionServerImp.java" />
+        <option value="$PROJECT_DIR$/designer-core/src/main/resources/mybatis/user/versionMapper.xml" />
+        <option value="$PROJECT_DIR$/designer-core/src/main/resources/mybatis/user/deviceMapper.xml" />
+        <option value="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/DeviceServer.java" />
+        <option value="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/dao/DeviceDao.java" />
+        <option value="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/impl/DeviceServerImp.java" />
+        <option value="$PROJECT_DIR$/designer-remote/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/addUserDevice.jsp" />
+        <option value="$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/deleteUserDevice.jsp" />
+        <option value="$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/editUserDevice.jsp" />
+        <option value="$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/server/sockets/Socket.java" />
+        <option value="$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/server/sockets/SocketListener.java" />
+        <option value="$PROJECT_DIR$/designer-web/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/designer-web/src/main/resources/spring-mybatis.xml" />
+        <option value="$PROJECT_DIR$/designer-web/src/main/resources/spring-context.xml" />
+        <option value="$PROJECT_DIR$/designer-web/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/designer-web/src/main/webapp/test.html" />
+        <option value="$PROJECT_DIR$/designer-remote/src/main/webapp/test.html" />
+        <option value="$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/index.jsp" />
+        <option value="$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/controller/DeviceController.java" />
+        <option value="$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/base.jsp" />
+        <option value="$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/server/sockets/SocketServer.java" />
+        <option value="$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/server/sockets/SocketMetoh.java" />
+        <option value="$PROJECT_DIR$/designer-web/src/main/java/com/fallwings/designer/web/server/sockets/SocketListener.java" />
+        <option value="$PROJECT_DIR$/designer-web/pom.xml" />
+        <option value="$PROJECT_DIR$/designer-remote/pom.xml" />
+        <option value="$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/designer-web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/designer-web/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/designer-web/src/main/java/com/fallwings/designer/web/server/sockets/SocketServer.java" />
+        <option value="$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/regist.jsp" />
+        <option value="$PROJECT_DIR$/designer-remote/src/main/webapp/js/jquery.cookie.js" />
+        <option value="$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/login.jsp" />
+        <option value="$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/server/webSocket/WebSocketHandshakeInterceptor.java" />
+        <option value="$PROJECT_DIR$/designer-web/src/main/java/com/fallwings/designer/web/server/sockets/SocketMetoh.java" />
+        <option value="$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/server/webSocket/WebSocketHandler.java" />
+        <option value="$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/listinfo.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Maven\resource" />
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="294" />
+    <option name="y" value="2" />
+    <option name="width" value="985" />
+    <option name="height" value="745" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-remote" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-remote" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-remote" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-remote" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-remote" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="remote" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-remote" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="remote" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-remote" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.29310346" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\香橙派\项目代码\远程服务端代码\designer\designer-remote\src\main\webapp" />
+      <recent name="E:\香橙派\项目代码\远程服务端代码\designer\designer-remote\src\main\webapp\WEB-INF\jsp\pages" />
+      <recent name="E:\香橙派\项目代码\远程服务端代码\designer\designer-remote\src\main\webapp\js" />
+      <recent name="E:\香橙派\项目代码\远程服务端代码\designer\designer-remote\src\main\resources" />
+      <recent name="E:\香橙派\项目代码\远程服务端代码\designer\designer-remote\src\main\webapp\WEB-INF\jsp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fallwings.designer.core.unit" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\香橙派\项目代码\远程服务端代码\designer\designer-remote\src\main\webapp\images" />
+      <recent name="E:\香橙派\项目代码\远程服务端代码\designer\designer-remote\src\main\webapp\js" />
+      <recent name="E:\香橙派\项目代码\远程服务端代码\designer\designer-web\src\main\java\com\fallwings\designer\web\server" />
+      <recent name="E:\香橙派\项目代码\远程服务端代码\designer\designer-remote\src\main\webapp" />
+      <recent name="E:\香橙派\项目代码\远程服务端代码\designer\designer-remote\src\main\java\com\fallwings\designer\remote\server\sockets" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Remote.aliyun">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="designer-remote" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="jetty:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/designer-remote" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="aliyun-camera" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="112.74.52.38" />
+      <option name="PORT" value="5006" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5006" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+    </configuration>
+    <configuration name="aliyun" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="112.74.52.38" />
+      <option name="PORT" value="5005" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5005" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.30" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="designer-remote:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/designer-remote" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_designer" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62191" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="designer-remote:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="sockets" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.30" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="designer-web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/sockets" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_(1)_designer" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61793" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="designer-web:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.designer-remote" />
+      <item itemvalue="Remote.aliyun" />
+      <item itemvalue="Remote.aliyun-camera" />
+      <item itemvalue="Tomcat Server.Unnamed" />
+      <item itemvalue="Tomcat Server.sockets" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85a11517-58e9-44a5-9c45-7e7d3d9c6d16" name="Default" comment="" />
+      <created>1528689298616</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528689298616</updated>
+      <workItem from="1528689300038" duration="1921000" />
+      <workItem from="1528693715936" duration="32412000" />
+      <workItem from="1529024338873" duration="9830000" />
+      <workItem from="1529370214178" duration="30605000" />
+      <workItem from="1529906962198" duration="51137000" />
+      <workItem from="1532056392531" duration="6188000" />
+      <workItem from="1532393884700" duration="13795000" />
+      <workItem from="1532914652629" duration="14896000" />
+      <workItem from="1533521847761" duration="49000" />
+      <workItem from="1533633942607" duration="6310000" />
+      <workItem from="1534121402730" duration="6510000" />
+      <workItem from="1534726058535" duration="45877000" />
+      <workItem from="1537943864135" duration="21310000" />
+      <workItem from="1539133373102" duration="25307000" />
+      <workItem from="1539564351364" duration="100815000" />
+      <workItem from="1540169958960" duration="3502000" />
+      <workItem from="1540180399708" duration="39455000" />
+      <workItem from="1540774477620" duration="10085000" />
+      <workItem from="1541379133282" duration="3113000" />
+      <workItem from="1542247266058" duration="27763000" />
+      <workItem from="1542698939388" duration="13293000" />
+      <workItem from="1543026105138" duration="2083000" />
+      <workItem from="1544603314364" duration="1724000" />
+      <workItem from="1544682298850" duration="859000" />
+      <workItem from="1544925173620" duration="1602000" />
+      <workItem from="1545012555152" duration="930000" />
+      <workItem from="1545116556911" duration="28446000" />
+      <workItem from="1545369096122" duration="30572000" />
+      <workItem from="1545962519490" duration="3198000" />
+      <workItem from="1546398580026" duration="13701000" />
+      <workItem from="1547171142840" duration="7379000" />
+      <workItem from="1547514928153" duration="15390000" />
+      <workItem from="1547606638813" duration="14947000" />
+      <workItem from="1548660014862" duration="150000" />
+      <workItem from="1549850971621" duration="1783000" />
+      <workItem from="1550542878124" duration="1078000" />
+      <workItem from="1550737495829" duration="6005000" />
+      <workItem from="1551145608365" duration="3685000" />
+      <workItem from="1551317294713" duration="4016000" />
+      <workItem from="1551660802326" duration="1238000" />
+      <workItem from="1551752568378" duration="20181000" />
+      <workItem from="1551935575458" duration="200000" />
+      <workItem from="1551946429035" duration="20346000" />
+      <workItem from="1552033768432" duration="782000" />
+      <workItem from="1552529182435" duration="1793000" />
+      <workItem from="1553137419143" duration="11384000" />
+      <workItem from="1554186638899" duration="13461000" />
+      <workItem from="1554543534874" duration="53845000" />
+      <workItem from="1555901269580" duration="118000" />
+      <workItem from="1556417024712" duration="4713000" />
+      <workItem from="1557815293434" duration="17367000" />
+      <workItem from="1558492288208" duration="8422000" />
+      <workItem from="1558942329217" duration="1685000" />
+      <workItem from="1560415061935" duration="601000" />
+      <workItem from="1561686258064" duration="8341000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="766198000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5045386" side_tool="true" weight="0.5633117" />
+      <window_info anchor="bottom" id="Application Servers" order="8" sideWeight="0.4992224" weight="0.32909092" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32980332" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+      <window_info id="Structure" order="1" sideWeight="0.5029762" side_tool="true" weight="0.25718608" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49546143" weight="0.46791863" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45941558" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49702382" visible="true" weight="0.19213313" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.17694806" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49848714" weight="0.24675325" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/controller/RtmpController.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/server/sockets/SocketMetoh.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/server/sockets/SocketMetoh.java</url>
+          <line>159</line>
+          <properties />
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/server/sockets/SocketMetoh.java</url>
+          <line>215</line>
+          <properties />
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/server/sockets/SocketMetoh.java</url>
+          <line>118</line>
+          <properties />
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/server/sockets/SocketMetoh.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/server/sockets/SocketMetoh.java</url>
+          <line>179</line>
+          <properties />
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/server/sockets/SocketMetoh.java</url>
+          <line>181</line>
+          <properties />
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/server/sockets/SocketServer.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/server/sockets/SocketMetoh.java</url>
+          <line>216</line>
+          <properties />
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/server/sockets/SocketMetoh.java</url>
+          <line>221</line>
+          <properties />
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/designer-web/src/main/java/com/fallwings/designer/web/server/sockets/SocketMetoh.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="155" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/corundumstudio/socketio/netty-socketio/1.7.12/netty-socketio-1.7.12.jar!/com/corundumstudio/socketio/listener/DataListener.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/corundumstudio/socketio/netty-socketio/1.7.12/netty-socketio-1.7.12.jar!/com/corundumstudio/socketio/listener/ClientListeners.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/corundumstudio/socketio/netty-socketio/1.7.12/netty-socketio-1.7.12.jar!/com/corundumstudio/socketio/SocketIOServer.class" />
+    <entry file="file://$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/server/sockets/SocketServer.java" />
+    <entry file="file://$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/server/sockets/SocketMetoh.java" />
+    <entry file="file://$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/controller/RtmpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/server/webSocket/WebSocketConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/base.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/modal.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-remote/src/main/resources/spring-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3097">
+          <caret line="163" column="141" selection-start-line="163" selection-start-column="133" selection-end-line="163" selection-end-column="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-web/src/main/resources/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="131" column="8" selection-start-line="131" selection-start-column="8" selection-end-line="131" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-web/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-web/src/main/resources/spring-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="41" column="21" selection-start-line="37" selection-start-column="8" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-web/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="10" column="51" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-web/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/corundumstudio/socketio/netty-socketio/1.7.12/netty-socketio-1.7.12.jar!/com/corundumstudio/socketio/transport/NamespaceClient.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/corundumstudio/socketio/netty-socketio/1.7.12/netty-socketio-1.7.12.jar!/com/corundumstudio/socketio/namespace/Namespace.class" />
+    <entry file="file://$PROJECT_DIR$/designer-web/src/main/java/com/fallwings/designer/web/server/sockets/SocketServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-remote/src/main/webapp/js/jquery.serializejson.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-web/src/main/java/com/fallwings/designer/web/server/sockets/SocketListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/regist.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="92" selection-start-line="20" selection-start-column="81" selection-end-line="20" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/controller/WebSocketController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-remote/src/main/webapp/js/jquery.cookie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2071">
+          <caret line="109" column="64" selection-start-line="109" selection-start-column="64" selection-end-line="109" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-websocket/4.3.7.RELEASE/spring-websocket-4.3.7.RELEASE.jar!/org/springframework/web/socket/handler/ExceptionWebSocketHandlerDecorator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="17" column="152" selection-start-line="17" selection-start-column="152" selection-end-line="17" selection-end-column="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/server/webSocket/WebSocketHandshakeInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="74" column="55" selection-start-line="74" selection-start-column="51" selection-end-line="74" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-web/src/main/java/com/fallwings/designer/web/server/sockets/SocketMetoh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="61" column="52" selection-start-line="61" selection-start-column="52" selection-end-line="61" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/listinfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6954">
+          <caret line="366" column="9" selection-start-line="366" selection-start-column="9" selection-end-line="366" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/server/webSocket/WebSocketHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="79" column="44" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-core/src/main/resources/mybatis/user/deviceMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="71" column="40" lean-forward="true" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-remote/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="n#build#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-remote/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/VersionServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-core/src/main/resources/mybatis/user/userMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="67" lean-forward="true" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/controller/DeviceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="33" column="51" lean-forward="true" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/UserServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/impl/DeviceServerImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/DeviceServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/impl/UserServerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-remote/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="40" column="64" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/dao/impl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/dao/DeviceDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-remote/src/main/resources/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2065" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="90" column="37" lean-forward="true" selection-start-line="90" selection-start-column="37" selection-end-line="90" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>designer-remote:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29310346" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29310346" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>designer-core</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29310346" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.springframework:spring-core:4.3.7.RELEASE</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29310346" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

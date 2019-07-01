@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fallwings.designer.core.dao.DeviceDao">
+    <select id="findUser" parameterType="java.lang.String" resultType="com.fallwings.designer.core.module.User">
+        select u.* from user u, user_device ud where ud.deviceid = #{deviceId} and ud.status='0' and ud.userid=u.userid
+    </select>
+    <select id="findUserList" parameterType="java.lang.String" resultType="com.fallwings.designer.core.module.User">
+        select u.* from user u, user_device ud where ud.deviceid = #{deviceId} and ud.status='0' and ud.userid=u.userid
+    </select>
+    <select id="findByKeyWord" parameterType="java.lang.String" resultType="com.fallwings.designer.core.module.Device">
+        select * from device where device_num = #{keyWord} and status='0'
+    </select>
+    <select id="findUserDevice" parameterType="java.lang.String" resultType="java.util.HashMap">
+        select d.*,ud.name,ud.user_device_id from device d,user_device ud where ud.userid = #{keyWord} and ud.status='0' and ud.deviceid=d.deviceid
+    </select>
+
+    <select id="findUserDeviceByAll" parameterType="map" resultType="java.lang.String">
+        select user_device_id from user_device where userid=#{userid} and deviceid=#{deviceid}
+    </select>
+    <select id="getVersion" resultType="com.fallwings.designer.core.module.Version">
+        select * from version
+    </select>
+    <insert id="saveUserByWebChat" parameterType="com.fallwings.designer.core.module.User">
+        insert into user (account,is_webchat,status,user_name,user_pic) values (#{account},#{is_webchat},#{status},#{user_name},#{user_pic})
+
+    </insert>
+    <insert id="addUserDevice" parameterType="map">
+        insert into user_device (userid,deviceid,status,creat_time,name) values (#{userid},#{deviceid},'0',#{creat_time},#{name})
+
+    </insert>
+    <insert id="addDevice" keyProperty="deviceid" useGeneratedKeys="true" parameterType="com.fallwings.designer.core.module.Device">
+        insert into device (device_num,status,online)values (#{device_num},'0','0');
+    </insert>
+
+    <update id="editUserDevice" parameterType="map">
+        update user_device set name=#{name} where deviceid=#{deviceid} and userid=#{userid}
+    </update>
+
+    <delete id="deleteUserDevice" parameterType="map">
+        delete from user_device where userid=#{userid} and deviceid=#{deviceid}
+    </delete>
+
+    <update id="editDevice" parameterType="com.fallwings.designer.core.module.Device">
+        update device 
+        <set>
+            <if test="device_num!=null and device_num!=''">
+                set device_num=#{device_num},
+            </if>
+            <if test="status!=null and status!=''">
+                set status=#{status},
+            </if>
+            <if test="online!=null and online!=''">
+                set online=#{online},
+            </if>
+            <if test="video_url!=null and video_url!=''">
+                set video_url=#{video_url},
+            </if>
+        </set>
+        where deviceid=#{deviceid};
+    </update>
+</mapper>

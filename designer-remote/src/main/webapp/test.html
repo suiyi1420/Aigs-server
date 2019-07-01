@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<img id="imgg" src="" width="640" height="480">
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script src="js/socket.io.js"></script>
+<script>
+    var socket = io.connect('http://112.74.52.38:9000');
+    socket.on('connect', function(){
+        output("<span>连接成功</span>");
+    });
+    socket.on('close', function(data){
+        alert("关闭！")
+    });
+    socket.on('message', function(data){
+        var img_src=data.replace("http://www.fallwings.top","");
+        $("#imgg").attr("src","data:image/png;base64,"+img_src);
+    });
+
+    function output(message) {
+        var currentTime = "<span class='time' >" + new Date().toLocaleString() + "</span>";
+        var element = $("<div>" + currentTime + " " + message + "</div>");
+        $("body").prepend(element);
+    }
+</script>

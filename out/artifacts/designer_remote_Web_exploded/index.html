@@ -1,0 +1,41 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <script src="js/jquery.min.js" ></script>
+</head>
+<body>
+
+<input id="send" />
+<button id="sendBtn" value="send"></button>
+<div id="message"></div>
+<script>
+    var ws = null;
+    function openWebSocket(){
+
+        if ('WebSocket' in window) {
+            ws = new WebSocket("ws://172.23.174.1:8080/remote/websocket/socketServer?webSocketId=000001&toWebSocketId=liyede");
+        } else {
+            ws = new SockJS("http://localhost:8080/sockjs/socketServer??webSocketId=000001&toWebSocketId=liyede");
+        }
+        ws.onopen = function () {
+
+        };
+
+        ws.onmessage = function (event) {
+            $("#message").text(event.data)
+        };
+        ws.onclose = function (event) {
+
+        };
+    }
+    $(document).ready(function(){
+        openWebSocket();
+
+    })
+    $("#sendBtn").click(function(){
+        var obj={msg:$("#send").val()};
+        ws.send(JSON.stringify(obj));
+    })
+</script>
+</body>
+</html>

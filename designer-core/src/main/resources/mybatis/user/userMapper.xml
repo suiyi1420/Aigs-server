@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fallwings.designer.core.dao.UserDao">
+    <select id="findByKeyWord" parameterType="java.lang.String" resultType="com.fallwings.designer.core.module.User">
+        select * from user where account = #{keyWord} and status='0'
+    </select>
+    <select id="findById" parameterType="java.lang.String" resultType="com.fallwings.designer.core.module.User">
+        select * from user where userid = #{keyWord} and status='0'
+    </select>
+    <select id="findDevice" parameterType="java.lang.String" resultType="com.fallwings.designer.core.module.Device">
+        select d.* from user_device ud,device d where ud.userId = #{userId} and ud.status='0' and ud.deviceid=d.deviceid
+    </select>
+
+    <insert id="saveUserByWebChat" parameterType="com.fallwings.designer.core.module.User">
+        insert into user (userid,account,is_webchat,status,user_name,user_pic,online,password) values (#{userid},#{account},#{is_webchat},#{status},#{user_name},#{user_pic},#{online},#{password})
+
+    </insert>
+    <select id="findByKeyWord2" parameterType="com.fallwings.designer.core.module.User" resultType="com.fallwings.designer.core.module.User">
+        select * from user where account = #{account} and password=#{password} and status='0'
+    </select>
+</mapper>
