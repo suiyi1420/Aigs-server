@@ -30,7 +30,7 @@ public class MailUtil {
             props.setProperty("mail.smtp.socketFactory.port", "465");
             props.put("mail.smtp.auth", "true");
             final String username = "liyede2008";
-            final String password = "liyede2008";
+            final String password = "EAAYFSQTNBQHYXGY";
             //获取到邮箱会话,利用匿名内部类的方式,将发送者邮箱用户名和密码授权给jvm
             Session session = Session.getDefaultInstance(props, new Authenticator() {
                 protected PasswordAuthentication getPasswordAuthentication() {

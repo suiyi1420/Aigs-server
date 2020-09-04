@@ -9,4 +9,5 @@ public interface UserServer {
     User findByKeyWord2(User user);
     boolean saveUserByWebChat(User user);
     Device findDevice(String userId);
+    boolean updateUser(User user);
 }

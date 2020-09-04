@@ -95,73 +95,12 @@ public class UserController {
     }
 
     @GetMapping(value="/login")
-    public String loginIndex(Model model){
+    public String loginIndex(Model model,HttpSession session){
+        //session.setAttribute("userId","1540195160594");
         return "/pages/login";
     }
 
 
-
-    @RequestMapping(value="/webchat",method = {RequestMethod.GET,RequestMethod.POST})
-    @ResponseBody
-    public Object startApp(String encryptedData, String iv, String code,HttpSession session) {
-        Map map = new HashMap<>();
-
-        if (code == null || code.length() == 0) {
-
-            map.put("status", 0);
-            map.put("msg", "code是空的");
-            // System.out.println("code" + code);
-            return map;
-        }
-
-        System.out.println(code);
-        String wxappid = "wxb29d6acd6f80e01f";//liyede2008@163.com的小程序号
-        String wxSecret = "be6251b28f9e112f340451f4ce0f70c0";
-        String grant_type = "authorization_code";
-
-        String u = "https://api.weixin.qq.com/sns/jscode2session?appid=" + wxappid + "&secret=" + wxSecret
-                + "&js_code=" + code + "&grant_type=authorization_code";
-        ;
-        String s = UserController.GETlogin(u);
-        //将这个拼接出来的url打印出来看一下
-        System.out.println(u);
-        System.out.println(s);
-        JSONObject json=JSONObject.fromObject(s);
-
-        System.out.println("这里是openid和session_key" + json);
-        String session_key = (String) json.get("session_key");
-        String openid = (String) json.get("openid");
-
-        try {
-            System.out.println("进入解密成功程序");
-            String result = AesCbcUtil.decrypt(encryptedData, session_key, iv, "utf-8");
-            JSONObject resultJson = JSONObject.fromObject(result);
-            //nickName :微信昵称   city ：微信城市    province ：微信省份   avatarUrl ：微信头像
-            String nickName=resultJson.getString("nickName"),city=resultJson.getString("city"),
-                    province=resultJson.getString("province"),avatarUrl=resultJson.getString("avatarUrl");
-
-            System.out.println(resultJson);
-            if (null != result && result.length() > 0) {
-                User user=userServer.findByKeyWord(openid);
-                if(user==null){
-                    User newUser=new User(new Date().getTime()+"",openid,"1","0",nickName,avatarUrl);
-                    userServer.saveUserByWebChat(newUser);
-                }
-                session.setAttribute("userId",openid);
-                String sessionId=session.getId();
-                map.put("status", 1);
-                map.put("msg", "解密成功");
-                HashMap userinfo = new HashMap<>();
-                userinfo.put("session_id", sessionId);
-                map.put("userInfo", userinfo);
-            }
-
-        } catch (Exception e) {
-            System.out.println("解密失败");
-            System.out.println(e);
-        }
-        return map;
-    }
 
     @RequestMapping(value="reflashsession",method = {RequestMethod.GET,RequestMethod.POST})
     @ResponseBody
@@ -180,11 +119,14 @@ public class UserController {
 
         MailUtil mailUtil=null;
         if (type.equals("regist")){
-            mailUtil  = new MailUtil(mail,"爱龟助手平台注册验证");
+            mailUtil  = new MailUtil(mail,"Fallwings智能插排注册验证");
             request.getSession().setAttribute("regist_yzm", text);
         }else if (type.equals("login")){
-            mailUtil  = new MailUtil(mail,"爱龟助手平台登录验证");
+            mailUtil  = new MailUtil(mail,"Fallwings智能插排登录验证");
             request.getSession().setAttribute("login_yzm", text);
+        }else if (type.equals("forget")){
+            mailUtil  = new MailUtil(mail,"Fallwings智能插排密码重设验证");
+            request.getSession().setAttribute("forget_yzm", text);
         }
 
         mailUtil.sendMail( text);
@@ -219,10 +161,11 @@ public class UserController {
                     user.setUserid(create_time);
                     user.setIs_webchat("0");
                     user.setStatus("0");
-                    user.setPassword(CommonClass.getMd5(user.getAccount()+"aigs"+user.getPassword()+new Date().getTime()));
+                    user.setPassword(CommonClass.getMd5(user.getAccount()+"aigs"+user.getPassword()+user.getUserid()));
                     userServer.saveUserByWebChat(user);
                     map.put("status",1);
                     map.put("msg","注册成功！");
+                    request.getSession().removeAttribute("regist_yzm");
                 }
             }
 
@@ -240,7 +183,7 @@ public class UserController {
         User user1=userServer.findByKeyWord(user.getAccount());
         Map<String,Object> map=new HashMap<>();
         if(user1!=null){
-            if (!user.getPassword().equals("")&&user.getPassword()!=null){
+            if (user.getPassword()!=null&&!user.getPassword().equals("")){
                 user.setPassword(CommonClass.getMd5(user.getAccount()+"aigs"+user.getPassword()+user1.getUserid()));
                 User user2=userServer.findByKeyWord2(user);
                 if(user2!=null){
@@ -255,6 +198,7 @@ public class UserController {
                 if(yzm.equals(session.getAttribute("login_yzm"))){
                     session.setAttribute("userId",user1.getUserid());
                     map.put("status",1);
+                    session.removeAttribute("login_yzm");
                 }else{
                     map.put("msg","请输入正确的验证码！");
                     map.put("status",0);
@@ -271,6 +215,30 @@ public class UserController {
     public String logout(Model model,HttpSession session){
         session.invalidate();
         return "/pages/login";
+    }
+
+
+    @RequestMapping(value="ajax_forget",method = {RequestMethod.POST})
+    @ResponseBody
+    public Object ajax_forget(User user, String idcode,HttpServletRequest request){
+        Map<String,Object> map=new HashMap<>();
+        if(user.getAccount()!= null){
+            if(!request.getSession().getAttribute("forget_yzm").equals(idcode)){
+                map.put("status",0);
+                map.put("msg","验证码错误！");
+            }else{
+                User user1=userServer.findByKeyWord(user.getAccount());
+                if(user1!= null ){
+                    user1.setPassword(CommonClass.getMd5(user1.getAccount()+"aigs"+user.getPassword()+user1.getUserid()));
+                    userServer.updateUser(user1);
+                    map.put("status",1);
+                    request.getSession().removeAttribute("forget_yzm");
+                }
+            }
+        }else{
+            map.put("status",0);
+        }
+        return map;
     }
 
 }

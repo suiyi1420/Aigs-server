@@ -39,6 +39,8 @@ public class UserServerImpl implements UserServer {
     public Device findDevice(String userId) {
         return userDao.findDevice(userId);
     }
+    @Override
+    public boolean updateUser(User user){userDao.updateUser(user); return true;}
 
 
 }

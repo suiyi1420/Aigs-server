@@ -97,7 +97,7 @@ public class DeviceController {
         map.put("deviceid",deviceid);
         deviceServer.deleteUserDevice(map);
         map=new HashMap<>();
-        map.put("msg","删除成功!");
+        map.put("status",1);
         return map;
     }
 

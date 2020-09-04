@@ -11,7 +11,7 @@ public class SocketServer {
     public void startAction() throws InterruptedException {
         Configuration config = new Configuration();
         config.setHostname("0.0.0.0");
-        config.setPort(9000);
+        config.setPort(8000);
 
         final SocketIOServer server = new SocketIOServer(config);
         SocketMetoh socketMetoh=new SocketMetoh(server);

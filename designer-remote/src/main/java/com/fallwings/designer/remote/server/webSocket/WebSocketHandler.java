@@ -1,15 +1,10 @@
 package com.fallwings.designer.remote.server.webSocket;
 
 import com.alibaba.fastjson.JSONObject;
-import com.fallwings.designer.core.module.Device;
-import com.fallwings.designer.core.module.User;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 import org.springframework.web.socket.CloseStatus;
 import org.springframework.web.socket.TextMessage;
 import org.springframework.web.socket.WebSocketSession;
-import org.springframework.web.socket.config.annotation.EnableWebSocket;
 import org.springframework.web.socket.handler.TextWebSocketHandler;
 
 import java.io.IOException;
@@ -33,12 +28,11 @@ public class WebSocketHandler extends TextWebSocketHandler {
      * 处理前端发送的文本信息
      * js调用websocket.send时候，会调用该方法
      *
-     * @param session
-     * @param message
-     * @throws Exception
+     * @param session session对象
+     * @param message 消息
      */
     @Override
-    protected void handleTextMessage(WebSocketSession session, TextMessage message) throws Exception {
+    protected void handleTextMessage(WebSocketSession session, TextMessage message){
         String poster = session.getAttributes().get("poster").toString();//获取发送方
         String receiver = session.getAttributes().get("receiver").toString();//获取发送方
         String type = session.getAttributes().get("type").toString();//获取用户还是设备的标识
@@ -47,8 +41,6 @@ public class WebSocketHandler extends TextWebSocketHandler {
             if (type.equals("0")) {//建立连接的是设备
                 List<String>list=new ArrayList<>();
                 deviceUserMap.put(poster,list);
-            }else{
-
             }
             sessionList.put(poster, session);
         }
@@ -61,8 +53,8 @@ public class WebSocketHandler extends TextWebSocketHandler {
      * 当新连接建立的时候，被调用
      * 连接成功时候，会触发页面上onOpen方法
      *
-     * @param webSocketSession
-     * @throws Exception
+     * @param webSocketSession websocket对象
+     * @throws Exception 错误对象
      */
     @Override
     public void afterConnectionEstablished(WebSocketSession webSocketSession) throws Exception {
@@ -87,7 +79,7 @@ public class WebSocketHandler extends TextWebSocketHandler {
             }*/
         } else {//建立连接的是用户，则查询设备的会话列表中是否存在该用户的会话，不存在就添加
             receiver=webSocketSession.getAttributes().get("receiver").toString();//获取接收送方
-            if(deviceUserMap.containsKey(receiver)&&!deviceUserMap.isEmpty()){//设备表中存在设备KEY值，则设备在线
+            if(!deviceUserMap.isEmpty() && deviceUserMap.containsKey(receiver)){//设备表中存在设备KEY值，则设备在线
                 List<String>list=deviceUserMap.get(receiver);
                 if(list.size()>0) {//该设备已有用户与之建立连接
                     for (String string : list) {//遍历查询是否存在当前用户
@@ -125,12 +117,11 @@ public class WebSocketHandler extends TextWebSocketHandler {
     /**
      * 当连接关闭时被调用
      *
-     * @param session
-     * @param status
-     * @throws Exception
+     * @param session session对象
+     * @param status 状态
      */
     @Override
-    public void afterConnectionClosed(WebSocketSession session, CloseStatus status) throws Exception {
+    public void afterConnectionClosed(WebSocketSession session, CloseStatus status){
         String poster = session.getAttributes().get("poster").toString();//获取发送方
         String receiver = session.getAttributes().get("receiver").toString();//获取接收方
         String type = session.getAttributes().get("type").toString();//获取用户还是设备的标识
@@ -150,7 +141,7 @@ public class WebSocketHandler extends TextWebSocketHandler {
                 if (list.size() > 0){
                     Iterator<String> it = list.iterator();
                     while (it.hasNext()) {
-                        String str = (String) it.next();
+                        String str = it.next();
                         if (poster.equals(str)) {
                             it.remove();
                         }
@@ -176,12 +167,11 @@ public class WebSocketHandler extends TextWebSocketHandler {
     /**
      * 传输错误时调用
      *
-     * @param session
-     * @param exception
-     * @throws Exception
+     * @param session session
+     * @param exception exception
      */
     @Override
-    public void handleTransportError(WebSocketSession session, Throwable exception) throws Exception {
+    public void handleTransportError(WebSocketSession session, Throwable exception)  {
 
 
     }
@@ -199,22 +189,15 @@ public class WebSocketHandler extends TextWebSocketHandler {
 
     }
 
-    /**
-     * 给所有在线用户发送消息
-     *
-     * @param message
-     */
-    public void sendMessageToUsers(TextMessage message) {
 
-    }
 
     /**
      * 给某个用户发送消息
      *
-     * @param receiver
-     * @param message
+     * @param receiver receiver
+     * @param message message
      */
-    public void sendMessageToUser(String receiver, TextMessage message, String poster, String type) {
+    private void sendMessageToUser(String receiver, TextMessage message, String poster, String type) {
         if (!sessionList.isEmpty()){
             if (type.equals("1")) {//如果发送方是用户，直接发送
                 if (sessionList.containsKey(receiver)) {//存在接收者的websocket会话

@@ -4,25 +4,17 @@ package com.fallwings.designer.remote.server.webSocket;
 
 import com.fallwings.designer.core.module.Device;
 import com.fallwings.designer.core.module.User;
-import com.fallwings.designer.core.module.Version;
-import com.fallwings.designer.core.server.VersionServer;
 import com.fallwings.designer.core.server.userServer.DeviceServer;
 import com.fallwings.designer.core.server.userServer.UserServer;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.server.ServerHttpRequest;
 import org.springframework.http.server.ServerHttpResponse;
 import org.springframework.http.server.ServletServerHttpRequest;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.context.request.RequestContextHolder;
-import org.springframework.web.context.request.ServletRequestAttributes;
 import org.springframework.web.socket.WebSocketHandler;
 import org.springframework.web.socket.server.HandshakeInterceptor;
 
 import javax.annotation.PostConstruct;
-import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.util.List;
 import java.util.Map;

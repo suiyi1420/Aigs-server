@@ -12,4 +12,5 @@ public interface UserDao {
     User findByKeyWord2(User user);
     Device findDevice(String userId);
     boolean saveUserByWebChat(User user);
+    boolean updateUser(User user);
 }
