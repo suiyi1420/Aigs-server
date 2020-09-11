@@ -27,18 +27,42 @@
         body {
             min-height: 100vh
         }
-        #qiwen_state.on,#qiwen_control.on{background:#fc4b6c !important;}
-        #guangzhao_state.on,#guangzhao_control.on{background:#ffb22b!important}
-        #shidu_state.on,#shidu_control.on{background:#1e88e5!important}
-        #shuiwen_state.on,#shuiwen_control.on{background:#7460ee!important}
-        #weishi_control.on{background:#7460ee!important}
-        .control,.state{background:#6c757d;}
+
+        #qiwen_state.on, #qiwen_control.on {
+            background: #fc4b6c !important;
+        }
+
+        #guangzhao_state.on, #guangzhao_control.on {
+            background: #ffb22b !important
+        }
+
+        #shidu_state.on, #shidu_control.on {
+            background: #1e88e5 !important
+        }
+
+        #shuiwen_state.on, #shuiwen_control.on {
+            background: #7460ee !important
+        }
+
+        #weishi_control.on {
+            background: #7460ee !important
+        }
+
+        .control, .state {
+            background: #6c757d;
+        }
 
     </style>
 </head>
 <body>
 
-<div class="preloader" style="display: none;">
+<div id="preloader" class="preloader" style="display: none;">
+    <div class="lds-ripple">
+        <div class="lds-pos"></div>
+        <div class="lds-pos"></div>
+    </div>
+</div>
+<div id="preloader2" class="preloader" style="display: none;">
     <div class="lds-ripple">
         <div class="lds-pos"></div>
         <div class="lds-pos"></div>
@@ -104,9 +128,10 @@
                             </div>
                         </div>
                         <div class="card state" id="qiwen_state" onclick="changeAuto(this,'qiwen')">
-                            <div class="card-body text-center text-white" >
+                            <div class="card-body text-center text-white">
                                 <span class="display-7"><i class="mdi mdi-weather-windy"></i></span>
-                                <div class="mt-3"><h6 class="font-weight-light text-white">气温 : <span id="qiwen_t"></span> °C</h6>
+                                <div class="mt-3"><h6 class="font-weight-light text-white">气温 : <span
+                                        id="qiwen_t"></span> °C</h6>
                                 </div>
                             </div>
                         </div><!-- Column --><!-- Column -->
@@ -127,10 +152,11 @@
                                 <div class="mt-3"><h6 class="font-weight-light text-white"></h6></div>
                             </div>
                         </div>
-                        <div class="card state" id="guangzhao_state"onclick="changeAuto(this,'guangzhao')">
+                        <div class="card state" id="guangzhao_state" onclick="changeAuto(this,'guangzhao')">
                             <div class="card-body text-center text-white">
                                 <span class="display-7"><i class="mdi mdi-lightbulb-on-outline"></i></span>
-                                <div class="mt-3"><h6 class="font-weight-light text-white">光照 : <span id="guangzhao_t"></span> Lux</h6>
+                                <div class="mt-3"><h6 class="font-weight-light text-white">光照 : <span
+                                        id="guangzhao_t"></span> Lux</h6>
                                 </div>
                             </div>
                         </div><!-- Column --><!-- Column -->
@@ -151,15 +177,16 @@
                             </div>
                         </div>
                         <!-- Column -->
-                        <div class="card state"id="shidu_state"onclick="changeAuto(this,'shidu')">
+                        <div class="card state" id="shidu_state" onclick="changeAuto(this,'shidu')">
                             <div class="card-body text-center text-white">
                                 <span class="display-7"><i class="mdi mdi-chart-bubble"></i></span>
-                                <div class="mt-3"><h6 class="font-weight-light text-white">湿度 : <span id="shidu_t"></span> %</h6>
+                                <div class="mt-3"><h6 class="font-weight-light text-white">湿度 : <span
+                                        id="shidu_t"></span> %</h6>
                                 </div>
                             </div>
                         </div><!-- Column --><!-- Column -->
-                        <div class="card control" onclick=""id="shidu_control">
-                            <div class="card-body text-center text-white" >
+                        <div class="card control" onclick="" id="shidu_control">
+                            <div class="card-body text-center text-white">
                                 <span class="display-7"><i class="mdi mdi-power"></i></span>
                                 <div class="mt-3"><h6 class="font-weight-light text-white">电源 : <span>已关闭</span></h6>
                                 </div>
@@ -175,10 +202,11 @@
                                 <div class="mt-3"><h6 class="font-weight-light text-white"></h6></div>
                             </div>
                         </div>
-                        <div class="card state" id="shuiwen_state"onclick="changeAuto(this,'shuiwen')">
+                        <div class="card state" id="shuiwen_state" onclick="changeAuto(this,'shuiwen')">
                             <div class="card-body text-center text-white">
                                 <span class="display-7"><i class="mdi mdi-oil-temperature"></i></span>
-                                <div class="mt-3"><h6 class="font-weight-light text-white">水温 : <span id="shuiwen_t"></span> °C</h6>
+                                <div class="mt-3"><h6 class="font-weight-light text-white">水温 : <span
+                                        id="shuiwen_t"></span> °C</h6>
                                 </div>
                             </div>
                         </div><!-- Column --><!-- Column -->
@@ -195,7 +223,8 @@
                         <div class="card control" id="weishi_control" onclick="changeState(this,'weishi')">
                             <div class="card-body text-center text-white">
                                 <span class="display-6"><i class="mdi mdi-power"></i></span>
-                                <div class="mt-3"><h5 class="font-weight-light text-white">喂食 : <span>已打开</span></h5></div>
+                                <div class="mt-3"><h5 class="font-weight-light text-white">喂食 : <span>已打开</span></h5>
+                                </div>
                             </div>
                         </div><!-- Column -->
 
@@ -212,7 +241,7 @@
 <div id="setting-modal" class="modal fade" tabindex="-1" role="dialog" style="display: none;" aria-hidden="true"
      data-backdrop="static" data-keyboard="false">
     <div class="modal-dialog modal-sm modal-right" style="width: 100%;">
-        <div class="modal-content"style="height: 100%;">
+        <div class="modal-content" style="height: 100%;">
             <div class="modal-body">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
 
@@ -238,15 +267,18 @@
                             <form id="wifiForm" class="pl-3 pr-3">
                                 <div class="form-group">
                                     <label for="ssid">SSID</label>
-                                    <input class="form-control" type="text" id="ssid"  name="ssid" required="" placeholder="SSID">
+                                    <input class="form-control" type="text" id="ssid" name="ssid" required=""
+                                           placeholder="SSID">
                                 </div>
                                 <div class="form-group">
                                     <label for="password">WIFI密码</label>
-                                    <input class="form-control" type="text" name="password" required="" id="password" placeholder="wifi密码">
+                                    <input class="form-control" type="text" name="password" required="" id="password"
+                                           placeholder="wifi密码">
                                 </div>
 
                                 <div class="form-group text-center">
-                                    <button class="btn btn-rounded btn-primary" type="button" onclick="setWifi()">连接</button>
+                                    <button class="btn btn-rounded btn-primary" type="button" onclick="setWifi()">连接
+                                    </button>
                                 </div>
                             </form>
 
@@ -254,7 +286,38 @@
                         <!-- End Tab 1 -->
                         <!-- Tab 2 -->
                         <div class="tab-pane fade" id="chat" role="tabpanel" aria-labelledby="pills-profile-tab">
+                            <div class="col-sm-12 col-md-6">
+                                <div class="card">
+                                    <div class="card-body"><h4 class="card-title">版本列表</h4>
+                                        <h6 class="card-subtitle">当前版本： <code id="version_total"></code></h6>
+                                        <form class="mt-4">
+                                            <div class="input-group">
+                                                <select class="custom-select" id="versionSelect">
+                                                    <c:forEach items="${version}" var="ver">
+                                                        <option value="${ver.url}">${ver.version}</option>
+                                                    </c:forEach>
+                                                </select>
+                                                <div class="input-group-append">
+                                                    <button class="btn btn-outline-secondary" type="button" id="version_button">下载</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
 
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <div class="card-body"><h4 class="card-title">版本详情</h4>
+                                        <c:forEach items="${version}" var="ver">
+                                            <div class="form-group version_tip" style="display: none;">
+                                                <small class="form-text text-muted">发布时间：${ver.time}</small>
+                                                <textarea class="form-control" rows="3" readonly>${ver.tip}</textarea>
+                                            </div>
+                                        </c:forEach>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <!-- End Tab 2 -->
                         <!-- Tab 3 -->
@@ -313,7 +376,7 @@
 <script>
     var slider = document.getElementById('slider');
     var ws = null;
-    var ip="${ip}",path="${path}",userId="${userId}",device_num="${device_num}",version="${version}",deviceid=${deviceid};
+    var ip = "${ip}", path = "${path}", userId = "${userId}", device_num = "${device_num}", deviceid = "${deviceid}";
     noUiSlider.create(slider, {
         start: [0, 100],
         connect: true,
@@ -328,28 +391,29 @@
             density: 3
         }
     });
-    function WebsocketInit(){
+
+    function WebsocketInit() {
         if ("WebSocket" in window) {
-            ws = new WebSocket("ws://"+ip+":80"+path+"/websocket/socketServer?isuser=1&deviceid="+deviceid);
+            ws = new WebSocket("ws://" + ip + ":80" + path + "/websocket/socketServer?isuser=1&deviceid=" + deviceid);
             //ws = new WebSocket("ws://www.fallwings.top/aigs/websocket/socketServer?isuser=1&deviceid=10");
             ws.onopen = function () {
                 // Web Socket 已连接上，使用 send() 方法发送数据
 
             };
-            ws.onconnect=function(){
+            ws.onconnect = function () {
 
             };
 
             ws.onmessage = function (evt) {
 
                 var data = evt.data;
-                data=eval("("+data+")");
+                data = eval("(" + data + ")");
                 console.log(data)
                 //data = JSON.parse(data);
                 var type = data["type"];
-                if(type=="getData"){
+                if (type == "getData") {
                     getData(data);
-                }else if(type=="getMinMax"){
+                } else if (type == "getMinMax") {
                     getMinMax(data);
 
                 }
@@ -361,120 +425,147 @@
                 //alert("连接已关闭...");
                 WebsocketInit();
             };
-        }else {
+            ws.onerror=function(){
+                alert("建立连接错误!");
+                window.location.href="${path}/index";
+            }
+        } else {
             // 浏览器不支持 WebSocket
             alert("您的浏览器不支持 WebSocket!");
         }
     }
-    function getState(id,control_value,control_id,auto_value){
-        if(auto_value=="0"){
+
+    function getState(id, control_value, control_id, auto_value) {
+        if (auto_value == "0") {
             $(id).removeClass("on");
-            $(id).attr("data","0");
-            $("#"+control_id+"_control").attr("onclick","changeState(this,'"+control_id+"')");
-        }else if(auto_value=="1"){
+            $(id).attr("data", "0");
+            $("#" + control_id + "_control").attr("onclick", "changeState(this,'" + control_id + "')");
+        } else if (auto_value == "1") {
             $(id).addClass("on");
-            $(id).attr("data","1");
-            $("#"+control_id+"_control").attr("onclick","");
+            $(id).attr("data", "1");
+            $("#" + control_id + "_control").attr("onclick", "");
         }
-        if(control_value=="1"){
-            $("#"+control_id+"_control").addClass("on");
-            $("#"+control_id+"_control").attr("data","1");
-            $("#"+control_id+"_control h6 span").text("已打开");
-            $("#"+control_id+"_control h5 span").text("已打开");
-        }else{
-            $("#"+control_id+"_control").removeClass("on");
-            $("#"+control_id+"_control").attr("data","0");
-            $("#"+control_id+"_control h6 span").text("已关闭");
-            $("#"+control_id+"_control h5 span").text("已关闭");
+        if (control_value == "1") {
+            $("#" + control_id + "_control").addClass("on");
+            $("#" + control_id + "_control").attr("data", "1");
+            $("#" + control_id + "_control h6 span").text("已打开");
+            $("#" + control_id + "_control h5 span").text("已打开");
+        } else {
+            $("#" + control_id + "_control").removeClass("on");
+            $("#" + control_id + "_control").attr("data", "0");
+            $("#" + control_id + "_control h6 span").text("已关闭");
+            $("#" + control_id + "_control h5 span").text("已关闭");
         }
     }
-    function changeState(_this,id){
-        var control_state=$(_this).attr("data");
-        var changeData=control_state=="0"?"1":"0";
-        if(changeData=="1"){
+
+    function changeState(_this, id) {
+        var control_state = $(_this).attr("data");
+        var changeData = control_state == "0" ? "1" : "0";
+        if (changeData == "1") {
             $(_this).addClass("on");
-            $(_this).attr("data","1");
-        }else{
+            $(_this).attr("data", "1");
+        } else {
             $(_this).removeClass("on");
-            $(_this).attr("data","0");
+            $(_this).attr("data", "0");
         }
-        var msg = {s_type:"changeState",type:id,state:changeData};
+        var msg = {s_type: "changeState", type: id, state: changeData};
         var json = JSON.stringify(msg);
         ws.send(json);
     }
-    function getData(json){
+
+    function getData(json) {
         $(".ip").text(json.ip);
         $(".i-name").text(json.mac);
         $("#qiwen_t").text(json.qiwen);
         $("#guangzhao_t").text(json.guangzhao);
         $("#shidu_t").text(json.shidu);
         $("#shuiwen_t").text(json.shiuwen);
-        getState("#qiwen_state",json.qiwenState,"qiwen",json.qiwenAuto);
-        getState("#shidu_state",json.shiduState,"shidu",json.shiduAuto);
-        getState("#guangzhao_state",json.guangzhaoState,"guangzhao",json.guangzhaoAuto);
-        getState("#shuiwen_state",json.shuiwenState,"shuiwen",json.shuiwenAuto);
-        getState("#weishi_state",json.weishiState,"weishi",json.weishiAuto);
-        $(".preloader").hide();
+        getState("#qiwen_state", json.qiwenState, "qiwen", json.qiwenAuto);
+        getState("#shidu_state", json.shiduState, "shidu", json.shiduAuto);
+        getState("#guangzhao_state", json.guangzhaoState, "guangzhao", json.guangzhaoAuto);
+        getState("#shuiwen_state", json.shuiwenState, "shuiwen", json.shuiwenAuto);
+        getState("#weishi_state", json.weishiState, "weishi", json.weishiAuto);
+        $("#version_total").text(json.version);
+        $("#versionSelect option").each(function(){
+            if($(this).text()==json.version) {
+                $(this).attr("disable");
+            }
+        });
+        $("#preloader").hide();
 
     }
 
 
-    function setMinMax(){
-        var type=$("#minmax-modal").attr("data");
-        var min=slider.noUiSlider.get()[0];
-        var max=slider.noUiSlider.get()[1];
-        var msg = {s_type:"setMinMax",type:type,min:min,max:max};
+    function setMinMax() {
+        var type = $("#minmax-modal").attr("data");
+        var min = slider.noUiSlider.get()[0];
+        var max = slider.noUiSlider.get()[1];
+        var msg = {s_type: "setMinMax", type: type, min: min, max: max};
         var json = JSON.stringify(msg);
         ws.send(json);
         $('#minmax-modal').modal('toggle');
     };
-    function changeAuto(_this,type){
+
+    function changeAuto(_this, type) {
         var value;
-        if($(_this).attr("data")=='0'){
-            value="1";
+        if ($(_this).attr("data") == '0') {
+            value = "1";
             $(_this).addClass("on");
-        }else{
-            value="0";
+        } else {
+            value = "0";
             $(_this).removeClass("on");
         }
-        var msg = {s_type:"setAuto",type:type,auto_value:value};
+        var msg = {s_type: "setAuto", type: type, auto_value: value};
         var json = JSON.stringify(msg);
         ws.send(json);
 
     };
 
-    function getMinMax(json){
-        var datatype=json["datatype"];
-        slider.noUiSlider.set([parseFloat(json.min),parseFloat(json.max)]);
-        if(datatype=="shidu"){
-            slider.noUiSlider.updateOptions({range:{"min":0,"max":100}})
-        }else if(datatype=="guangzhao"){
-            slider.noUiSlider.updateOptions({range:{"min":0,"max":1000}})
-        }else{
-            slider.noUiSlider.updateOptions({range:{"min":10,"max":40}})
+    function getMinMax(json) {
+        var datatype = json["datatype"];
+        slider.noUiSlider.set([parseFloat(json.min), parseFloat(json.max)]);
+        if (datatype == "shidu") {
+            slider.noUiSlider.updateOptions({range: {"min": 0, "max": 100}})
+        } else if (datatype == "guangzhao") {
+            slider.noUiSlider.updateOptions({range: {"min": 0, "max": 1000}})
+        } else {
+            slider.noUiSlider.updateOptions({range: {"min": 10, "max": 40}})
         }
 
-        $('#minmax-modal').attr("data",datatype);
+        $('#minmax-modal').attr("data", datatype);
         $('#minmax-modal').modal('toggle');
-        $(".preloader").hide();
+        $("#preloader2").hide();
     }
-    function openMinMax(type){
-        $(".preloader").show();
-        var msg = {s_type:"getMinMax",type:type};
+
+    function openMinMax(type) {
+        $("#preloader2").show();
+        var msg = {s_type: "getMinMax", type: type};
         var json = JSON.stringify(msg);
         ws.send(json);
     }
-    function setWifi(){
-        var ssid=$("#wifiForm input[name='ssid']").val();
-        var password=$("#wifiForm input[name='password']").val();
-        var msg = {s_type:"setWifi",ssid:ssid,password:password};
+
+    function setWifi() {
+        var ssid = $("#wifiForm input[name='ssid']").val();
+        var password = $("#wifiForm input[name='password']").val();
+        var msg = {s_type: "setWifi", ssid: ssid, password: password};
         var json = JSON.stringify(msg);
         ws.send(json);
         $("#wifiForm")[0].reset();
     }
-    $(document).ready(function(){
-        $(".preloader").show();
+
+    $(document).ready(function () {
+        $("#preloader").show();
         WebsocketInit();
+        $(".version_tip").eq(0).show();
+        $("#versionSelect").change(function(){
+            var ind=$(this).prop('selectedIndex');
+            $(".version_tip").siblings("div").hide();
+            $(".version_tip").eq(ind).show();
+        });
+        $("#version_button").click(function(){
+            var ind=$("#versionSelect").prop('selectedIndex');
+            window.open($("#versionSelect").val());
+        });
     });
 
 </script>

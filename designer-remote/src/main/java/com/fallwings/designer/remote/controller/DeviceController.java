@@ -118,10 +118,10 @@ public class DeviceController {
 
     @RequestMapping(value="listinfo",method = {RequestMethod.GET})
     public String listInfo(Model model,String device_num,HttpSession session){
-        Version version=deviceServer.getVersion();
+        List<Version> version=deviceServer.getVersion();
         Integer deviceid=deviceServer.findByKeyWord(device_num).getDeviceid();
         model.addAttribute("deviceid",deviceid);
-        model.addAttribute("version",version.getVersion());
+        model.addAttribute("version",version);
         model.addAttribute("device_num",device_num);
         model.addAttribute("userId",session.getAttribute("userId"));
         return "/pages/listinfo";

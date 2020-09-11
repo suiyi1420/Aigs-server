@@ -6,171 +6,18 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85a11517-58e9-44a5-9c45-7e7d3d9c6d16" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/designer-remote/src/main/webapp/css/icons/flag-icon-css/flags/cn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designer-remote/src/main/webapp/css/icons/flag-icon-css/flags/de.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designer-remote/src/main/webapp/css/icons/flag-icon-css/flags/fr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designer-remote/src/main/webapp/css/icons/flag-icon-css/flags/in.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designer-remote/src/main/webapp/css/icons/flag-icon-css/flags/us.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designer-remote/src/main/webapp/css/icons/font-awesome/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designer-remote/src/main/webapp/css/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designer-remote/src/main/webapp/css/icons/simple-line-icons/fonts/Simple-Line-Icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designer-remote/src/main/webapp/css/icons/themify-icons/fonts/themify.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designer-remote/src/main/webapp/css/icons/weather-icons/fonts/weathericons-regular-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designer-remote/src/main/webapp/css/nouislider.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designer-remote/src/main/webapp/css/style.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designer-remote/src/main/webapp/images/login-register.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designer-remote/src/main/webapp/images/logo-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designer-remote/src/main/webapp/images/logo-text.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designer-remote/src/main/webapp/js/custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designer-remote/src/main/webapp/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designer-remote/src/main/webapp/js/nouislider.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designer-remote/src/main/webapp/js/perfect-scrollbar.jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designer-remote/src/main/webapp/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designer-remote/src/main/webapp/js/sparkline.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="85a11517-58e9-44a5-9c45-7e7d3d9c6d16" name="Default" comment="修改界面">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/UserServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/UserServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/impl/UserServerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/impl/UserServerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/unit/MailUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/unit/MailUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-core/src/main/resources/mybatis/user/userMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/src/main/resources/mybatis/user/userMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/dao/DeviceDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/dao/DeviceDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/dao/VersionDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/dao/VersionDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/dao/impl/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/module/Device.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/module/Device.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/module/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/module/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/module/Version.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/module/Version.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/server/VersionServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/server/VersionServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/server/userServer/DeviceServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/server/userServer/DeviceServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/server/userServer/UserServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/server/userServer/UserServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/server/userServer/impl/DeviceServerImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/server/userServer/impl/DeviceServerImp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/server/userServer/impl/UserServerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/server/userServer/impl/UserServerImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/server/userServer/impl/VersionServerImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/server/userServer/impl/VersionServerImp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/unit/AesCbcUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/unit/AesCbcUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/unit/CommonClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/unit/CommonClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/unit/MailUtil$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/unit/MailUtil$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/unit/MailUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/unit/MailUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/unit/MyInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/target/classes/com/fallwings/designer/core/unit/MyInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-core/target/classes/mybatis/user/userMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/target/classes/mybatis/user/userMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-core/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/logs/ssm.log" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/logs/ssm.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/dao/DeviceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/dao/DeviceDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/dao/VersionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/dao/VersionDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/module/Version.java" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/module/Version.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/VersionServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/VersionServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/DeviceServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/DeviceServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/impl/DeviceServerImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/impl/DeviceServerImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/impl/VersionServerImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/impl/VersionServerImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designer-core/src/main/resources/mybatis/user/versionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/designer-core/src/main/resources/mybatis/user/versionMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/controller/DeviceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/controller/DeviceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/server/webSocket/WebSocketHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/server/webSocket/WebSocketHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/server/webSocket/WebSocketHandshakeInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/server/webSocket/WebSocketHandshakeInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/addUserDevice.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/deleteUserDevice.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/editUserDevice.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/listinfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/listinfo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/regist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/css/bootstrap-switch.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/css/listinfo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/css/uikit.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/images/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/images/isAuto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/images/jiawen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/images/jiawen_o.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/images/login_ico.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/images/login_title.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/images/reshui.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/images/reshui_o.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/js/bootstrap-switch.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/js/common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/js/jquery-1.11.3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/js/jquery.serializejson.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/js/listinfo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/js/socket.io.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/src/main/webapp/js/uikit.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/aigs.war" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/target/aigs.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/classes/com/fallwings/designer/remote/controller/DeviceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/target/classes/com/fallwings/designer/remote/controller/DeviceController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/classes/com/fallwings/designer/remote/controller/RtmpController.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/target/classes/com/fallwings/designer/remote/controller/RtmpController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/classes/com/fallwings/designer/remote/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/target/classes/com/fallwings/designer/remote/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/classes/com/fallwings/designer/remote/controller/WebSocketController.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/target/classes/com/fallwings/designer/remote/controller/WebSocketController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/classes/com/fallwings/designer/remote/server/webSocket/WebSocketConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/target/classes/com/fallwings/designer/remote/server/webSocket/WebSocketConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/classes/com/fallwings/designer/remote/server/webSocket/WebSocketHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/target/classes/com/fallwings/designer/remote/server/webSocket/WebSocketHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/classes/com/fallwings/designer/remote/server/webSocket/WebSocketHandshakeInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/target/classes/com/fallwings/designer/remote/server/webSocket/WebSocketHandshakeInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/target/classes/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/WEB-INF/classes/com/fallwings/designer/remote/controller/DeviceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/target/designer-remote/WEB-INF/classes/com/fallwings/designer/remote/controller/DeviceController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/WEB-INF/classes/com/fallwings/designer/remote/controller/RtmpController.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/target/designer-remote/WEB-INF/classes/com/fallwings/designer/remote/controller/RtmpController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/WEB-INF/classes/com/fallwings/designer/remote/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/target/designer-remote/WEB-INF/classes/com/fallwings/designer/remote/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/WEB-INF/classes/com/fallwings/designer/remote/controller/WebSocketController.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/target/designer-remote/WEB-INF/classes/com/fallwings/designer/remote/controller/WebSocketController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/WEB-INF/classes/com/fallwings/designer/remote/server/webSocket/WebSocketConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/target/designer-remote/WEB-INF/classes/com/fallwings/designer/remote/server/webSocket/WebSocketConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/WEB-INF/classes/com/fallwings/designer/remote/server/webSocket/WebSocketHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/target/designer-remote/WEB-INF/classes/com/fallwings/designer/remote/server/webSocket/WebSocketHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/WEB-INF/classes/com/fallwings/designer/remote/server/webSocket/WebSocketHandshakeInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/target/designer-remote/WEB-INF/classes/com/fallwings/designer/remote/server/webSocket/WebSocketHandshakeInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/WEB-INF/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/target/designer-remote/WEB-INF/classes/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/WEB-INF/jsp/pages/addUserDevice.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/WEB-INF/jsp/pages/deleteUserDevice.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/WEB-INF/jsp/pages/editUserDevice.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/WEB-INF/jsp/pages/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/target/designer-remote/WEB-INF/jsp/pages/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/WEB-INF/jsp/pages/listinfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/target/designer-remote/WEB-INF/jsp/pages/listinfo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/WEB-INF/jsp/pages/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/target/designer-remote/WEB-INF/jsp/pages/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/WEB-INF/jsp/pages/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/target/designer-remote/WEB-INF/jsp/pages/regist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/WEB-INF/lib/designer-core-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/css/bootstrap-switch.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/css/uikit.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/images/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/images/isAuto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/images/jiawen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/images/jiawen_o.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/images/login_ico.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/images/login_title.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/images/reshui.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/images/reshui_o.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/js/bootstrap-switch.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/designer-remote/target/designer-remote/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/js/common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/js/jquery-1.11.3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/js/jquery.serializejson.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/js/socket.io.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/designer-remote/js/uikit.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/orangepi_device.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-remote/target/work/jsp/org/apache/jsp/index_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/designer-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-web/src/main/java/com/fallwings/designer/web/server/sockets/SocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/designer-web/src/main/java/com/fallwings/designer/web/server/sockets/SocketServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-web/target/classes/com/fallwings/designer/web/server/sockets/SocketListener$MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-web/target/classes/com/fallwings/designer/web/server/sockets/SocketListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-web/target/classes/com/fallwings/designer/web/server/sockets/SocketMetoh$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-web/target/classes/com/fallwings/designer/web/server/sockets/SocketMetoh.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-web/target/classes/com/fallwings/designer/web/server/sockets/SocketServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-web/target/designer-web.war" beforeDir="false" afterPath="$PROJECT_DIR$/designer-web/target/designer-web.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-web/target/designer-web/WEB-INF/classes/com/fallwings/designer/web/server/sockets/SocketServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/designer-web/target/designer-web/WEB-INF/classes/com/fallwings/designer/web/server/sockets/SocketServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer-web/target/designer-web/WEB-INF/lib/designer-core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/designer-web/target/designer-web/WEB-INF/lib/designer-core-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/designer-web/target/" />
@@ -203,44 +50,39 @@
       <file leaf-file-name="listinfo.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/listinfo.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="221" column="86" lean-forward="true" selection-end-line="482" />
+            <state relative-caret-position="167">
+              <caret line="300" column="126" selection-start-line="300" selection-start-column="126" selection-end-line="300" selection-end-column="126" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#17641#17900#0#HTML" />
+                <element signature="e#19102#20022#0#HTML" />
+                <element signature="e#20057#20503#0#HTML" />
+                <element signature="e#21586#21929#0#HTML" />
+                <element signature="e#21960#22527#0#HTML" />
+                <element signature="e#22557#22710#0#HTML" />
+                <element signature="e#22733#23028#0#HTML" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/login.jsp">
+      <file leaf-file-name="DeviceController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/controller/DeviceController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="8" lean-forward="true" selection-end-line="286" />
+            <state relative-caret-position="994">
+              <caret line="120" column="20" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/index.jsp">
+      <file leaf-file-name="DeviceServerImp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/impl/DeviceServerImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="124" column="38" lean-forward="true" selection-end-line="350" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designer-remote/src/main/webapp/css/style.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="4493" selection-start-line="4493" selection-end-line="4495" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="regist.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/regist.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="27" selection-end-line="187" />
+            <state relative-caret-position="234">
+              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
             </state>
           </provider>
         </entry>
@@ -311,15 +153,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/module/Device.java" />
-        <option value="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/module/Version.java" />
-        <option value="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/dao/VersionDao.java" />
-        <option value="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/VersionServer.java" />
-        <option value="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/impl/VersionServerImp.java" />
-        <option value="$PROJECT_DIR$/designer-core/src/main/resources/mybatis/user/versionMapper.xml" />
         <option value="$PROJECT_DIR$/designer-core/src/main/resources/mybatis/user/deviceMapper.xml" />
-        <option value="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/DeviceServer.java" />
-        <option value="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/dao/DeviceDao.java" />
-        <option value="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/impl/DeviceServerImp.java" />
         <option value="$PROJECT_DIR$/designer-remote/src/main/resources/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/addUserDevice.jsp" />
         <option value="$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/deleteUserDevice.jsp" />
@@ -355,11 +189,19 @@
         <option value="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/UserServer.java" />
         <option value="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/impl/UserServerImpl.java" />
         <option value="$PROJECT_DIR$/designer-core/src/main/resources/mybatis/user/userMapper.xml" />
-        <option value="$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/controller/DeviceController.java" />
         <option value="$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/login.jsp" />
         <option value="$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/index.jsp" />
         <option value="$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/controller/UserController.java" />
         <option value="$PROJECT_DIR$/designer-remote/src/main/webapp/css/style.min.css" />
+        <option value="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/module/Version.java" />
+        <option value="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/dao/VersionDao.java" />
+        <option value="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/VersionServer.java" />
+        <option value="$PROJECT_DIR$/designer-core/src/main/resources/mybatis/user/versionMapper.xml" />
+        <option value="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/DeviceServer.java" />
+        <option value="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/impl/VersionServerImp.java" />
+        <option value="$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/controller/DeviceController.java" />
+        <option value="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/impl/DeviceServerImp.java" />
+        <option value="$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/dao/DeviceDao.java" />
         <option value="$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/listinfo.jsp" />
       </list>
     </option>
@@ -431,6 +273,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -438,12 +282,252 @@
               <item name="designer" type="b2602c69:ProjectViewProjectNode" />
               <item name="designer" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fallwings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fallwings" type="462c0819:PsiDirectoryNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fallwings" type="462c0819:PsiDirectoryNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fallwings" type="462c0819:PsiDirectoryNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fallwings" type="462c0819:PsiDirectoryNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fallwings" type="462c0819:PsiDirectoryNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="userServer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fallwings" type="462c0819:PsiDirectoryNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="userServer" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-remote" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-remote" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-remote" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-remote" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-remote" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-remote" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fallwings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-remote" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fallwings" type="462c0819:PsiDirectoryNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-remote" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fallwings" type="462c0819:PsiDirectoryNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="remote" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-remote" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fallwings" type="462c0819:PsiDirectoryNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="remote" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-remote" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-remote" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-remote" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+              <item name="designer-remote" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -841,12 +925,13 @@
       <workItem from="1598489327273" duration="14238000" />
       <workItem from="1598921482856" duration="5900000" />
       <workItem from="1598952981462" duration="19693000" />
-      <workItem from="1599108821209" duration="7223000" />
+      <workItem from="1599108821209" duration="8840000" />
+      <workItem from="1599727091024" duration="9388000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="881558000" />
+    <option name="totallyTimeSpent" value="892563000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -862,7 +947,7 @@
       <window_info id="Structure" order="1" sideWeight="0.5029762" side_tool="true" weight="0.25718608" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49394855" visible="true" weight="0.15284553" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49394855" visible="true" weight="0.13658537" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.4601626" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -873,7 +958,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.4585366" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3284553" />
-      <window_info active="true" content_ui="combo" x="573" y="176" width="220" height="386" id="Project" order="0" sideWeight="0.49702382" visible="true" weight="0.17776097" />
+      <window_info content_ui="combo" x="573" y="176" width="220" height="386" id="Project" order="0" sideWeight="0.49702382" visible="true" weight="0.18003026" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -984,35 +1069,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/designer-remote/src/main/webapp/js/jquery.serializejson.min.js" />
-    <entry file="file://$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/controller/WebSocketController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designer-remote/src/main/webapp/js/jquery.cookie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-websocket/4.3.7.RELEASE/spring-websocket-4.3.7.RELEASE.jar!/org/springframework/web/socket/handler/ExceptionWebSocketHandlerDecorator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="17" column="152" selection-start-line="17" selection-start-column="152" selection-end-line="17" selection-end-column="152" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designer-core/src/main/resources/mybatis/user/deviceMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -1023,38 +1079,10 @@
     <entry file="file://$PROJECT_DIR$/designer-remote/src/main/resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/VersionServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/impl/DeviceServerImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/DeviceServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/designer-remote/src/main/resources/spring-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
           <caret line="40" column="64" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/dao/DeviceDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1193,13 +1221,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designer-core/src/main/resources/mybatis/user/userMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/UserServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1229,20 +1250,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/listinfo-bak.jsp" />
     <entry file="file://$PROJECT_DIR$/designer-remote/src/main/webapp/js/listinfo.js" />
-    <entry file="file://$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/controller/DeviceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="119" column="76" selection-start-line="119" selection-start-column="69" selection-end-line="119" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="98" column="10" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/server/webSocket/WebSocketHandshakeInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -1270,14 +1277,7 @@
     <entry file="file://$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
-          <caret line="27" column="8" lean-forward="true" selection-end-line="286" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="124" column="38" lean-forward="true" selection-end-line="350" />
+          <caret line="27" column="8" selection-end-line="286" />
         </state>
       </provider>
     </entry>
@@ -1290,15 +1290,142 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/designer-remote/src/main/webapp/css/style.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
+        <state relative-caret-position="85367">
           <caret line="4493" selection-start-line="4493" selection-end-line="4495" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="98" column="10" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/VersionServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-core/src/main/resources/mybatis/user/userMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-core/src/main/resources/mybatis/user/deviceMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="110" selection-start-line="6" selection-start-column="110" selection-end-line="6" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-core/src/main/resources/mybatis/user/versionMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/dao/VersionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/module/Version.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/impl/VersionServerImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/dao/DeviceDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/DeviceServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="138" column="34" lean-forward="true" selection-start-line="138" selection-start-column="34" selection-end-line="138" selection-end-column="34" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-core/src/main/java/com/fallwings/designer/core/server/userServer/impl/DeviceServerImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designer-remote/src/main/java/com/fallwings/designer/remote/controller/DeviceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="994">
+          <caret line="120" column="20" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/designer-remote/src/main/webapp/WEB-INF/jsp/pages/listinfo.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="221" column="86" lean-forward="true" selection-end-line="482" />
+        <state relative-caret-position="167">
+          <caret line="300" column="126" selection-start-line="300" selection-start-column="126" selection-end-line="300" selection-end-column="126" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#17641#17900#0#HTML" />
+            <element signature="e#19102#20022#0#HTML" />
+            <element signature="e#20057#20503#0#HTML" />
+            <element signature="e#21586#21929#0#HTML" />
+            <element signature="e#21960#22527#0#HTML" />
+            <element signature="e#22557#22710#0#HTML" />
+            <element signature="e#22733#23028#0#HTML" />
+          </folding>
         </state>
       </provider>
     </entry>

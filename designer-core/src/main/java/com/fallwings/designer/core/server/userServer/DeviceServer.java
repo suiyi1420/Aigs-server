@@ -18,5 +18,5 @@ public interface DeviceServer {
     void editUserDevice(Map<String,Object> map);
     void deleteUserDevice(Map<String,Object> map);
     void editDevice(Device device);
-    Version getVersion();
+    List<Version> getVersion();
 }

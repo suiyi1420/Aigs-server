@@ -67,7 +67,7 @@ public class DeviceServerImp implements DeviceServer {
     }
 
     @Override
-    public Version getVersion() {
+    public List<Version> getVersion() {
         return deviceDao.getVersion();
     }
 }
